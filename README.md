@@ -1,4 +1,4 @@
-# 📱 Telegram to Obsidian Quick Capture
+# Telegram to Obsidian Quick Capture
 
 Capture fleeting thoughts on mobile via Telegram, automatically synced to your Obsidian vault.
 
@@ -7,7 +7,7 @@ Capture fleeting thoughts on mobile via Telegram, automatically synced to your O
 ![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## ✨ Features
+## Features
 
 - **Quick Capture** – Text thoughts to your Telegram bot like messaging a friend
 - **Cloud Queuing** – Messages stored securely until your PC syncs them
@@ -16,7 +16,7 @@ Capture fleeting thoughts on mobile via Telegram, automatically synced to your O
 - **Private & Secure** – Bot only responds to your Telegram account
 - **Free Hosting** – Runs on Cloudflare's generous free tier
 
-## 📖 How It Works
+## How It Works
 
 ```
 ┌──────────────┐     ┌───────────────────┐     ┌─────────────────┐
@@ -36,14 +36,14 @@ Capture fleeting thoughts on mobile via Telegram, automatically synced to your O
 3. **Local sync script** runs when your PC starts, pulls new thoughts
 4. **Quick Thoughts.md** in your vault gets updated with your captured ideas
 
-## 📋 Prerequisites
+## Prerequisites
 
 - [Cloudflare account](https://dash.cloudflare.com/sign-up) (free)
 - [Telegram account](https://telegram.org/)
 - [Python 3.8+](https://python.org) installed on your PC
 - An Obsidian vault
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Create Your Telegram Bot
 
@@ -131,7 +131,7 @@ Capture fleeting thoughts on mobile via Telegram, automatically synced to your O
 
 Now your thoughts sync automatically whenever you log in!
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 telegram-obsidian-sync/
@@ -145,7 +145,7 @@ telegram-obsidian-sync/
 └── .gitignore
 ```
 
-## 💬 Bot Commands
+## Bot Commands
 
 | Command | Description |
 |---------|-------------|
@@ -153,7 +153,7 @@ telegram-obsidian-sync/
 | `/status` | Check pending thoughts count |
 | Any text | Captured as a thought |
 
-## 📝 Output Format
+## Output Format
 
 Your `Quick Thoughts.md` will look like:
 
@@ -167,14 +167,14 @@ Your `Quick Thoughts.md` will look like:
 - 12:30 – thought from yesterday
 ```
 
-## 🔒 Security
+## Security
 
 - **User-locked**: Bot only responds to your Telegram user ID
 - **Token-protected**: Sync endpoint requires secret bearer token
 - **Your data**: Stored in your own Cloudflare account
 - **Auto-cleanup**: Thoughts deleted from cloud after successful sync
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Bot not responding?
 
@@ -193,7 +193,7 @@ Your `Quick Thoughts.md` will look like:
 - Check `VAULT_PATH` points to the correct folder
 - Verify file permissions on the vault folder
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -201,11 +201,11 @@ Contributions are welcome! Feel free to:
 - Suggest features
 - Submit pull requests
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Obsidian](https://obsidian.md) – The incredible knowledge management app
 - [Cloudflare Workers](https://workers.cloudflare.com) – Free serverless platform
@@ -213,4 +213,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the Obsidian community**
+**Made with love for the Obsidian community to nerd out on**
